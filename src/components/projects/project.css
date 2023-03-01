@@ -1,0 +1,158 @@
+.projects__container {
+  grid-template-columns: repeat(3, 270px);
+  justify-content: center;
+  column-gap: 1.8rem;
+}
+
+.projects__content {
+  position: relative;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: var(--container-color);
+  padding: 6rem 0 2rem 2.5rem;
+}
+
+.section__title {
+  margin-bottom: var(--mb-1);
+}
+
+.projects__modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: var(--z-modal);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 1rem;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.3s;
+}
+
+.projects__modal-content {
+  width: 500px;
+  position: relative;
+  background-color: var(--container-color);
+  padding: 4.5rem 2.5rem 2.5rem;
+  border-radius: 1.5rem;
+  /*  */
+}
+
+.projects__modal-close {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  font-size: 1.5rem;
+  color: var(--title-color);
+  cursor: pointer;
+}
+
+.active-modal {
+  opacity: 1;
+  visibility: visible;
+}
+
+
+
+.qualification__button {
+  font-size: var(--h3-font-size);
+  font-weight: var(--font-medium);
+  color: var(--title-color);
+  margin: 0 var(--mb-1);
+  cursor: pointer;
+}
+
+.qualification__tabs {
+  /* position: relative; */
+  /* display: flex;
+  justify-content: center; */
+  margin-bottom: var(--mb-2);
+  /* margin-right: -70px; */
+  /* border: 1px solid red; */
+  width: 110%;
+}
+
+
+
+.chosen__container {
+  display: none;
+}
+
+.chosen__content-active {
+  display: block;
+}
+
+.imgProject {
+  width: 150px;
+}
+
+.projects__modal-description {
+  text-align: justify;
+  margin-bottom: 10px;
+}
+
+.detailProject {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.detailProject img {
+  margin-right: 30px;
+}
+
+.buttonProject {
+  text-align: center;
+  font-size: 15px;
+  padding: 10px;
+}
+
+.projects__modal-title {
+  text-align: center;
+}
+
+.projects__button {
+  cursor: pointer;
+}
+
+/*=============== BREAKPOINTS ===============*/
+/* For large devices */
+@media screen and (max-width: 992px) {
+  .projects__container {
+    grid-template-columns: repeat(3, 218px);
+  }
+}
+
+/* For medium devices */
+@media screen and (max-width: 768px) {
+  .projects__container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .projects__content {
+    padding: 3.5rem 0.5rem 1.25rem 1.5rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .projects__modal-content {
+    padding: 4.5rem 1.5rem 2.5rem;
+  }
+  .qualification__button {
+    margin: 0 var(--mb-0-75);
+  }
+}
+
+/* For small devices */
+@media screen and (max-width: 350px) {
+  .projects__container {
+    grid-template-columns: max-content;
+  }
+  .projects__content {
+    padding-right: 6rem;
+  }
+}
