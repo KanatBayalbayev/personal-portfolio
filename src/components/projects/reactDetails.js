@@ -4,8 +4,21 @@ import menu from "../../assets/reactImgProjects/menu.PNG";
 import tour from "../../assets/reactImgProjects/tour.PNG";
 import quiz from "../../assets/reactImgProjects/quiz.PNG";
 import counter from "../../assets/reactImgProjects/counter.PNG";
+import todo from "../../assets/reactImgProjects/todoList.PNG";
 
 const reactProjects = [
+  {
+    id: "todoList",
+    name: "ToDo List",
+    description:
+      "A simple todo list",
+    stek: `1) HTML
+    2) CSS
+    3) JSX
+    4) React `,
+    img: todo,
+    url: "https://tranquil-pixie-d71797.netlify.app",
+  },
   {
     id: "menu",
     name: "The Interactive Menu",
