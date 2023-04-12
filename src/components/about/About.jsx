@@ -1,7 +1,7 @@
 import React from "react";
 import "./about.css";
 import myImg from "../../assets/Me1.JPG";
-import myCV from "../../assets/myCV.pdf";
+import myCV from "../../assets/resume.pdf";
 import Info from "./Info";
 
 const About = () => {
@@ -16,7 +16,7 @@ const About = () => {
             I am a self-taught programmer. I mastered Frontend development on my
             own, and to this day I am learning new technologies, various
             frameworks and libraries to improve my coding skills. <br /> The
-            experience of self-development is more than 8 months.
+            experience of self-development is more than 1 year.
           </p>
           <a download="" href={myCV} className="button button--flex">
             Download CV
