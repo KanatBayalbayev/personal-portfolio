@@ -7,8 +7,20 @@ import multiImg from "../../assets/imgProjectsJS/Multi_step_form_App.PNG";
 import typingImg from "../../assets/imgProjectsJS/Typing_test_App.PNG";
 import qrImg from "../../assets/imgProjectsJS/QR_code_generator.PNG";
 import translatorImg from "../../assets/imgProjectsJS/Translator_App.PNG";
+import guessGameImg from "../../assets/imgProjectsJS/guessGame.PNG";
 
 const projects = [
+  {
+    id: "guess the number game",
+    name: "The Guess a Number Game",
+    description:
+      "Guess the secret number. If your guess is too high or too low, you'll get a hint.",
+    stek: `1) HTML
+    2) CSS
+    3) Javascript`,
+    img: guessGameImg,
+    url: "https://astonishing-pixie-1df6c7.netlify.app",
+  },
   {
     id: "coin game",
     name: "The Coin Game",
