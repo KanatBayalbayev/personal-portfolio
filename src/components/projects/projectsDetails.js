@@ -9,6 +9,7 @@ import qrImg from "../../assets/imgProjectsJS/QR_code_generator.PNG";
 import translatorImg from "../../assets/imgProjectsJS/Translator_App.PNG";
 import guessGameImg from "../../assets/imgProjectsJS/guessGame.PNG";
 
+
 const projects = [
   {
     id: "guess the number game",

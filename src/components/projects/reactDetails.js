@@ -5,13 +5,25 @@ import tour from "../../assets/reactImgProjects/tour.PNG";
 import quiz from "../../assets/reactImgProjects/quiz.PNG";
 import counter from "../../assets/reactImgProjects/counter.PNG";
 import todo from "../../assets/reactImgProjects/todoList.PNG";
+import blackStar from "../../assets/reactImgProjects/blackStarWebsite.PNG";
 
 const reactProjects = [
   {
+    id: "blackstar",
+    name: "Black Star Burger",
+    description:
+      "A replica website of Blackstar Burger would aim to capture the look and feel of the official website, with a focus on providing a responsive and user-friendly experience for visitors.",
+    stek: `1) HTML
+    2) CSS
+    3) JSX
+    4) React `,
+    img: blackStar,
+    url: "https://jolly-starship-d58e76.netlify.app",
+  },
+  {
     id: "todoList",
     name: "ToDo List",
-    description:
-      "A simple todo list",
+    description: "A simple todo list",
     stek: `1) HTML
     2) CSS
     3) JSX
@@ -22,8 +34,7 @@ const reactProjects = [
   {
     id: "menu",
     name: "The Interactive Menu",
-    description:
-      "A simple interactive menu with a choice of dishes",
+    description: "A simple interactive menu with a choice of dishes",
     stek: `1) HTML
     2) CSS
     3) JSX
